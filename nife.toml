@@ -1,4 +1,4 @@
-# nile.toml file generated for pensive-colden0 on 2024-06-26T11:37:12+05:30
+# nile.toml file for pensive-colden0 on 2024-06-26T11:37:12+05:30
 
 app = "pensive-colden0"
 docker_file_path = ""
