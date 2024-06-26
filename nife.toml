@@ -1,15 +1,11 @@
-# nile.toml file for pensive-colden0 on 2024-06-26T11:37:12+05:30
-
-app = "pensive-colden0"
-docker_file_path = ""
-github = "https://github.com/rahul-nife/react-j/archive/refs/heads/main.zip"
-id = "15b679e1d108cedf822a5de1c73bfb32b5d92853d96b7da6e2147d874e7ce5056ab0f6d5548a241ce3c8abe7b38c2465"
-
-[build]
-  builtin = "GitHub"
-
+app = "posh-app-7406"
+github = "https://github.com/rahul-nife/react-j/"
+id = "eae4539bd8c2b6ae9b369847a0bc4bf454f7d58e5067badfa6c6df5fe01c20782ed3158a7d7c5c80f9b9792625a0244d"
 kill_signal = "SIGINT"
 kill_timeout = 5
+
+[build]
+  image = ""
 
 [env]
 
@@ -18,11 +14,11 @@ kill_timeout = 5
   auto_rollback = true
 
 [[services]]
-  external_port = 80
+  external_port = "80"
   http_checks = []
-  internal_port = 3000
+  internal_port = "3000"
   protocol = "tcp"
-  routing_policy = "Geolocation"
+  routing_policy = "Latency"
   script_checks = []
 
   [services.concurrency]
