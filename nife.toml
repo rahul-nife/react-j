@@ -3,6 +3,7 @@ github = "https://github.com/rahul-nife/react-j/"
 id = "eae4539bd8c2b6ae9b369847a0bc4bf454f7d58e5067badfa6c6df5fe01c20782ed3158a7d7c5c80f9b9792625a0244d"
 kill_signal = "SIGINT"
 kill_timeout = 5
+docker_file_path = ""
 
 [build]
     builtin = "GitHub"
